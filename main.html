@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <style>
+      .navbar {
+        background-color: white;
+      }
+
+      .navbar-brand {
+        color: rgb(0, 0, 0);
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .navbar-nav .nav-link {
+        color: rgb(0, 0, 0);
+      }
+
+      section {
+        padding-top: 300px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 90px;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: rgb(198, 187, 187);
+      }
+
+      .navbar-brand img {
+        max-width: 50px;
+      }
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+      .bg-cover {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .logo {
+        font-size: 25px;
+      }
+
+      .btn {
+        border: solid rgb(23, 22, 22) 2px;
+        margin: 6px;
+      }
+
+      .conti {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .login-box {
+        width: 300px;
+        padding: 40px;
+        position: relative;
+        background: #ffffff;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+      .login-box h2 {
+        margin: 0 0 20px;
+        color: #000000;
+      }
+
+      .textbox {
+        position: relative;
+        margin-bottom: 30px;
+      }
+
+      .textbox i {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        color: #000000;
+      }
+
+      .textbox input {
+        width: 350px;
+        padding: 10px;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: #000000;
+        border-bottom: 1px solid #000000;
+      }
+
+      #buton {
+        width: 100%;
+        padding: 10px;
+
+        border: 2px solid black;
+
+        cursor: pointer;
+        border-radius: 0;
+      }
+
+      #buton:hover {
+        background: #000000;
+      }
+      #home {
+        margin-top: 100px;
+      }
+      #pro {
+        margin-top: 90px;
+        margin-bottom: 90px;
+      }
+
+      #conti2 {
+        padding: 20px;
+      }
+
+      .about-us-content {
+        text-align: justify;
+      }
+
+      .profile-image {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .rounded-image {
+        border-radius: 80%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/koenigsegglogo.png"
+              class="img-fluid"
+              height="90px"
+              width="90px"
+              alt="Koenigsegg Logo"
+            />
+            <strong class="logo">Koenigsegg</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Home</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products"
+                  ><strong>Products</strong></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>Services</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid" id="home">
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <img
+              src="images/coverimage.jpg"
+              alt="Koenigsegg Logo"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h1>
+              Regera <br />
+              The world's faster car ever build
+            </h1>
+            <p>
+              “Regera” translates to “to reign” in Swedish. Wherever it
+              ventures, the Koenigsegg Regera reigns with a combination of a V8
+              engine and three electric motors. Exceptional performance is just
+              one of its many highlights; the Koenigsegg Regera is unabashedly
+              luxurious and cossets drivers with a level of style and comfort
+              that can only be achieved by a Koenigsegg megacar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="pro">
+        <center>
+          <div class="row justify-content-center align-items-center g-4">
+            <h2 class="mont" id="products" style="padding-top: 20px">
+              Products
+            </h2>
+            <p class="mont">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+              est fuga tempore necessitatibus distinctio minus laborum vitae
+              aliquam. Veritatis doloribus, dolorum sed maxime corporis eos
+              aperiam cum culpa rem excepturi!
+            </p>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="card img-fluid">
+                <img
+                  class="card-img-top"
+                  src="images/v121.jpg"
+                  height="290"
+                  width="490"
+                  alt="Title"
+                />
+                <div class="card-body">
+                  <h4 class="card-title mont">V12 Engine</h4>
+                  <p class="card-text mont">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Hic, reprehenderit.
+                  </p>
+                  <button
+                    style="border-radius: 0"
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    Add to Cart
+                  </button>
+                  <button
+                    style="border-radius: 0"
+                    type="button"
+                    class="btn btn-dark"
+                  >
+                    Buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/exhaust.jpg"
+                  alt="Title"
+                />
+                <div class="card-body">
+                  <h4 class="card-title mont">Akrapovic exhaust</h4>
+                  <p class="card-text mont">
+                    One of the Regera’s crowning features is its customized
+                    titanium exhaust system, which was developed with Akrapovic.
+                  </p>
+                  <button
+                    style="border-radius: 0"
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    Add to Cart
+                  </button>
+                  <button
+                    style="border-radius: 0"
+                    type="button"
+                    class="btn btn-dark"
+                  >
+                    Buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="images/interior.jpg"
+                  alt="Title"
+                />
+                <div class="card-body">
+                  <h4 class="card-title mont">Interior</h4>
+                  <p class="card-text mont">
+                    The interior of the Regera is well-insulated for a quiet
+                    ride and includes ambient lighting, so you can set the tone
+                    for any drive
+                  </p>
+                  <button
+                    style="border-radius: 0"
+                    type="button"
+                    class="btn btn-outline-dark"
+                  >
+                    Add to Cart
+                  </button>
+                  <button
+                    style="border-radius: 0"
+                    type="button"
+                    class="btn btn-dark"
+                  >
+                    Buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid mt-5" class="conti" id="login">
+            <div class="row justify-content-center align-items-center g-3">
+              <div class="col-sm-12 col-md-5 pe-5">
+                <div class="login-box">
+                  <h2>Login</h2>
+                  <form>
+                    <div class="textbox">
+                      <i class="fas fa-user"></i>
+                      <input
+                        type="text"
+                        placeholder="Username"
+                        name="username"
+                        required
+                      />
+                    </div>
+                    <div class="textbox">
+                      <i class="fas fa-lock"></i>
+                      <input
+                        type="password"
+                        placeholder="Password"
+                        name="password"
+                        required
+                      />
+                    </div>
+                    <input
+                      type="submit"
+                      class="btn btn-outline-dark"
+                      id="buton"
+                      value="Login"
+                    />
+                  </form>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-7 ps-5">
+                <img src="images/log.jpg" class="img-fluid rounded" alt="" />
+              </div>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="container" id="conti2">
+        <div class="about-us-content">
+          <h1>About Us - Koenigsegg</h1>
+          <div class="profile-image">
+            <img
+              src="images/korounder.png"
+              height="400px"
+              width="400px"
+              alt="Christian von Koenigsegg"
+              class="image-fluid"
+            />
+          </div>
+          <p>
+            Welcome to Koenigsegg, a pioneering Swedish automotive manufacturer
+            known for producing high-performance hypercars and cutting-edge
+            automotive technology.
+          </p>
+          <p>
+            Founded in 1994 by Christian von Koenigsegg, our company has become
+            synonymous with innovation, precision engineering, and a relentless
+            pursuit of automotive excellence.
+          </p>
+          <h2>Our Founder - Christian von Koenigsegg</h2>
+          <p>
+            Christian von Koenigsegg, a visionary entrepreneur and automotive
+            enthusiast, established Koenigsegg at the age of 22 with the goal of
+            creating the world's best sports cars.
+          </p>
+          <div class="row justify-content-center align-items-center g-2">
+            <div class="col-sm-12 col-md-6">
+              <img
+                src="images/aboutus.jpg"
+                class="img-fluid"
+                height="400"
+                width="500"
+                alt=""
+              />
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat ipsum eius corrupti, qui doloribus, quasi aliquam nam
+                culpa dolor magnam eos cupiditate vel sunt atque placeat modi
+                consequuntur perferendis voluptatum hic libero temporibus? Sunt,
+                doloremque? Architecto soluta id nobis ipsa.
+              </p>
+            </div>
+            <div class="col">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              tenetur quasi assumenda possimus voluptatibus tempora perferendis
+              temporibus eius. Illo, quibusdam. Ex incidunt illum, id sequi
+              inventore maiores odit eius error mollitia reprehenderit rerum
+              quas nisi? Animi rerum nemo corrupti quo!
+            </div>
+            <div class="col">
+              <img
+                src="images/aboutus2.jpg"
+                class="img-fluid"
+                height="400"
+                width="500"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
